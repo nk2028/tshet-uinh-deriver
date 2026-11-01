@@ -382,7 +382,7 @@ export default function SchemaEditor({ state, setState, generalOptions, evaluate
         try {
           setState(
             actions.addSchema({
-              name: localizedSampleName("tupa")!,
+              name: localizedSampleName("tupa"),
               input: await fetchFile(tshetUinhExamplesURLPrefix + "tupa.js", signal),
             }),
           );
